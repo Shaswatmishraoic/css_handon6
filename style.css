@@ -1,0 +1,131 @@
+
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbar{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 0px 20px;
+    display: inline-block;
+    padding: 0px 10px;
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    height: 500px;
+    row-gap: 20px;
+    column-gap: 40px;
+    width: 80%;
+    justify-content: center;
+}
+
+
+.box{
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: 1s ease;
+    cursor: pointer;
+    color: white;
+    padding: 15px 15px;
+   
+}
+.box:hover{
+    transform: translateY(-10px);
+}
+.box1{
+    background-image: url("./pic-1.png");
+    background-size: cover;
+}
+.box2{
+    background-image: url("./pic-2.png");
+    background-size: cover;
+}
+.box3{
+    background-image: url("./pic-3.png");
+    background-size: cover;
+}
+.box4{
+    background-image: url("./pic-4.png");
+    background-size: cover;
+}
+.b1{
+    font-size: 20px;
+}
+.b2{
+    line-height: 200%;
+}
+.saha{
+    color: white;
+    font-size: 60px;
+}
+.container-2{
+   display: flex;
+   align-items: center;
+   margin-left: 40px;
+}
+.ra{
+    color: white;
+}
+
+#explo{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+}
+
+
+@media screen and (min-width:280px) and (max-width:500px){
+    .grid{
+        grid-template-columns: 250px;
+    }
+    body{
+        background-size: auto;
+    }
+    ul li{
+        display: block;
+    }
+    .box{
+        height: 250px;
+    }
+    .container-2{
+        flex-direction: column;
+       
+    }
+}
+@media screen and (min-width:500px) and (max-width:900px){
+    .grid{
+        grid-template-columns: 500px;
+        
+    }
+    body{
+        background-size: auto;
+        background-position: center;
+        background-repeat: repeat;
+    }
+    .box{
+        height: 250px;
+    }
+    .container-2{
+        flex-direction: column;
+       
+    }
+}
