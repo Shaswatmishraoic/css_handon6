@@ -99,6 +99,7 @@ ul li{
     }
     body{
         background-size: auto;
+        background-repeat: repeat;
     }
     ul li{
         display: block;
