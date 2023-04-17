@@ -67,9 +67,10 @@ ul li{
 .b2{
     line-height: 200%;
 }
+
 .saha{
     color: white;
-    font-size: 60px;
+    font-size: 80px;
 }
 .container-2{
    display: flex;
@@ -79,7 +80,6 @@ ul li{
 .ra{
     color: white;
 }
-
 #explo{
     width: 120px;
     height: 30px;
@@ -89,7 +89,6 @@ ul li{
     padding-top: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
-   
 }
 
 
@@ -100,6 +99,7 @@ ul li{
     body{
         background-size: auto;
         background-repeat: repeat;
+        background-position: center;
     }
     ul li{
         display: block;
